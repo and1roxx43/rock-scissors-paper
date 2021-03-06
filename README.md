@@ -1,11 +1,11 @@
 # PROJECT: rock-scissors-paper (Console version)
 
-## Overview: Create a rock scissors paper game using console.User will compete against the computer.
+## Overview: A simple game of rock scissors paper. User will compete against the computer.
 ___
-- Launch the game in Chrome. Right click and choose 'Inspect', and select Console tab.
-- User will be prompted to enter a value of either 'R', 'S', or 'P'.
-- If wrong value is entered, an alert is displayed. If user click on Cancel button, the game wil not start. In this case user will need to reload the game (CTRL + F5).
-
+- To play the game simply enter a value in the text box, and click play.
+- If no text is entered
 ___
 ## URL for game
+
+https://and1roxx43.github.io/rock-scissors-paper/
 

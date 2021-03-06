@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Stick', sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    background-color: #fec107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+
+nav h1 {
+    font-size: 2.5em;
+}
+
+main {
+    height: 70vh;
+    margin-top: 10vh;
+}
+
+.userInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    margin: 50px;
+}
+
+.userInput  label {
+    margin: 10px;
+}
+
+.userInput input[type="text"] {
+    border: 2px solid rgb(192, 144, 41);
+    border-radius: 20%;
+    font-size: 20px;
+    color:cadetblue;
+    width:50px;
+    height: 50px;
+    outline: none;
+    padding: 18px;
+}
+
+.userInput input[type="submit"] {
+    border-radius: 20px;;
+    padding: 8px 10px;
+    width: 200px;
+    margin: 20px;
+    outline: none;
+}
+
+.result {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color:darkgoldenrod;
+}
+footer span {
+    color: darkmagenta;
+}
