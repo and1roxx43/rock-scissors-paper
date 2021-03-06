@@ -72,6 +72,7 @@ if(userInput === computer){
 // Reset button to reset the game.
 document.getElementById('btn_click_reset').addEventListener('click', function(){
 
+  document.getElementById('user').value = '';
   document.getElementById('userText').innerHTML = '';
   document.getElementById('userInputText').innerHTML = '';
   document.getElementById('compInput').innerHTML = ''
