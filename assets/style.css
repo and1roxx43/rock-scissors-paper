@@ -63,6 +63,14 @@ main {
     outline: none;
 }
 
+.userInput input[type="submit"]:hover {
+    background-color: cadetblue;
+}
+
+.userInput input[type="submit"]:active {
+    transform: scale(1.1);
+}
+
 .result {
     display:flex;
     flex-direction: column;
