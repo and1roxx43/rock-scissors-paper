@@ -89,3 +89,23 @@ footer {
 footer span {
     color: darkmagenta;
 }
+
+@media screen and (max-width:500px) {
+    nav h1 {
+        font-size: 1.8em;
+    }
+
+    .userInput label {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    nav h1 {
+        font-size: 1.8em;
+    }
+
+    .userInput label {
+        font-size: 0.8rem;
+    }
+}
